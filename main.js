@@ -27,12 +27,12 @@ let gitLocation = document.createElement('div')
 gitLocation.innerText = `${parsedResponse.location}`
 containerBox.appendChild(gitLocation)
 gitLocation.classList.add("location")
-  // url
+
 let gitUrl = document.createElement('div')
 gitUrl.innerText = `${parsedResponse.url}`
 containerBox.appendChild(gitUrl)
 gitUrl.classList.add("gitUrl")
-  //username
+
 let gitUsername = document.createElement('div')
 gitUsername.innerText = `${parsedResponse.login}`
 containerBox.appendChild(gitUsername)
@@ -43,3 +43,4 @@ reposHeader.innerText = "Git Repos"
 containerBox.appendChild(reposHeader)
 reposHeader.classList.add("reposHeader")
 
+  })
